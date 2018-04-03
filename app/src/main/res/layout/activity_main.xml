@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.akash.foodcarte.MainActivity">
+
+    <Button
+        android:text="Coca cola Canteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/coke"
+        android:layout_below="@+id/nescafe"
+        android:layout_alignStart="@+id/nescafe"
+        android:onClick="cola"/>
+
+    <Button
+        android:text="Rolls Conteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rolls"
+        android:layout_below="@+id/coke"
+        android:layout_alignStart="@+id/coke"
+        android:onClick="rolls"/>
+
+    <Button
+        android:text="Nescafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nescafe"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/badicant"
+        android:onClick="nes"/>
+
+    <Button
+        android:text="Badi Canteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/badicant"
+        android:layout_marginBottom="52dp"
+        android:layout_above="@+id/coke"
+        android:layout_centerHorizontal="true"
+        android:onClick="badi"/>
+
+    <Button
+        android:text="Owner LogIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/login"
+        android:onClick="signin"/>
+
+
+</RelativeLayout>

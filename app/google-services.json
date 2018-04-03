@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "868110500475",
+    "firebase_url": "https://food-carte.firebaseio.com",
+    "project_id": "food-carte",
+    "storage_bucket": "food-carte.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:868110500475:android:f885c9c94a81c7b3",
+        "android_client_info": {
+          "package_name": "com.example.akash.foodcarte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "868110500475-f795a74ssa1jm8jtmj52mnf0g6n3n081.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.akash.foodcarte",
+            "certificate_hash": "c883e6b4bafd8b498414faf93faf28e08af2436a"
+          }
+        },
+        {
+          "client_id": "868110500475-119tms3tt7rnf6egr23l327599r8evui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKXwjvPlrucyAwXagAke32Qj7lqn3D7pg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "868110500475-119tms3tt7rnf6egr23l327599r8evui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
